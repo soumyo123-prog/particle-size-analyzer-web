@@ -1,0 +1,12 @@
+.img {
+  width: 100%;
+  transition: max-height 0.2s ease-out;
+}
+
+.img_collapsed {
+  max-height: 0;
+}
+
+.img_expanded {
+  max-height: 400px;
+}
